@@ -31,13 +31,18 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
+    #app django
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    #app local
     'catalog.apps.CatalogConfig',
+
+    #app de terceiros
+    'django_extensions',
 ]
 
 MIDDLEWARE = [
